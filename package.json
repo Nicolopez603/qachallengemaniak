@@ -1,0 +1,17 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "challenge realizado para Maniak",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "testChrome": "npm run test -- --browser chrome --headless",
+    "testDashboardChromeHeadless": "npm run test -- --record --key 383c925d-a082-4269-bee5-aaa20f55d83d"
+  },
+  "author": "Nicolas Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  }
+ }
